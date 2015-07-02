@@ -10,6 +10,13 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Pong.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{46853849-4C1D-4886-9405-40756C847A11}</ProjectGuid>
     <RootNamespace>Pong</RootNamespace>
