@@ -1,18 +1,18 @@
-﻿Build started 7/4/2015 5:14:10 PM.
+﻿Build started 7/6/2015 8:24:24 PM.
      1>Project "C:\Users\Michael Voght\Documents\Programming\FirstGame\Pong\Pong\Pong.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MainMenu.cpp SplashScreen.cpp
-         SplashScreen.cpp
-         MainMenu.cpp
-         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp
+         Game.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michael Voght\Documents\Programming\FirstGame\Pong\Debug\Pong.exe" /INCREMENTAL /NOLOGO "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Michael Voght\Documents\Programming\FirstGame\Pong\Debug\Pong.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Michael Voght\Documents\Programming\FirstGame\Pong\Debug\Pong.lib" /MACHINE:X86 Debug\Game.obj
          Debug\MainMenu.obj
+         Debug\PlayerPaddle.obj
          Debug\Pong.obj
          Debug\SplashScreen.obj
+         Debug\VisibleGameObject.obj
          Pong.vcxproj -> C:\Users\Michael Voght\Documents\Programming\FirstGame\Pong\Debug\Pong.exe
      1>Done Building Project "C:\Users\Michael Voght\Documents\Programming\FirstGame\Pong\Pong\Pong.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.18
+Time Elapsed 00:00:00.80

@@ -13,13 +13,17 @@
   <ItemGroup>
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="PlayerPaddle.cpp" />
     <ClCompile Include="Pong.cpp" />
     <ClCompile Include="SplashScreen.cpp" />
+    <ClCompile Include="VisibleGameObject.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h" />
     <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="PlayerPaddle.h" />
     <ClInclude Include="SplashScreen.h" />
+    <ClInclude Include="VisibleGameObject.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{46853849-4C1D-4886-9405-40756C847A11}</ProjectGuid>
